@@ -1,0 +1,32 @@
+import React from 'react'
+
+export default function About() {
+  return (
+      <div className="py-16 bg-white">
+          <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+              <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                  <div className="md:5/12 lg:w-5/12">
+                      <img
+                          src="data:image/webp;base64,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"
+                          alt="image"
+                      />
+                  </div>
+                  <div className="md:7/12 lg:w-6/12">
+                      <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
+                          React development is carried out by passionate developers
+                      </h2>
+                      <p className="mt-6 text-gray-600">
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
+                          accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
+                          aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                      </p>
+                      <p className="mt-4 text-gray-600">
+                          Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
+                          Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  );
+}
